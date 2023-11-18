@@ -4,11 +4,11 @@
     "slug": "GoJimApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/playstoreIcon.png",
+    "icon": "assets/images/playstoreIcon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/images/playstoreIcon.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,15 +20,15 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/playstoreIcon.png",
-        "backgroundColor": "transparent"
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       },
       "package": "com.jimpesenti.GoJimApp"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/playstoreIcon.png"
+      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router"
